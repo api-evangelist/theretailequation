@@ -1,8 +1,26 @@
 aid: theretailequation
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/theretailequation.png
 name: Theretailequation
-description: 'Theretailequation is a company surfaced as a portfolio company of norwest-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: >-
+  The Retail Equation (TRE) is an Irvine, California software and analytics company that helps
+  retailers detect and prevent fraudulent transactions and reduce return/exchange policy abuse. Its
+  core Transaction Authorization service analyzes a shopper's linked purchase, return, and exchange
+  history in real time and returns an approve, warn, or deny recommendation at the point of return —
+  scoring transaction frequency, value, and receipt status while explicitly excluding demographic
+  factors. TRE is part of Appriss Retail. The public web presence is a marketing and consumer-inquiry
+  site plus an authenticated retailer Return Activity Report (RAR) portal; no public developer
+  program, API documentation, SDKs, or OpenAPI surface is published.
 url: https://raw.githubusercontent.com/api-evangelist/theretailequation/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Retail
+- Returns
+- Fraud Prevention
+- Transaction Authorization
+- Analytics
+- Loss Prevention
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,16 @@ maintainers:
 common:
 - type: Website
   url: https://theretailequation.com
+- type: PrivacyPolicy
+  url: https://theretailequation.com/privacy/
+- type: TermsOfService
+  url: https://theretailequation.com/terms/
+- type: Support
+  url: mailto:consumerinquiry@theretailequation.com
+- type: DomainSecurity
+  url: security/theretailequation-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
